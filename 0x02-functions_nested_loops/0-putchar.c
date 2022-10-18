@@ -2,7 +2,8 @@
 #include <unistd.h>
 
 /**
- * _putchar - prints it followed by new line
+ * _putchar - writes the character c to stdout
+ * @c: rhe character to print
  *
  * Return: On Success 1
  */
