@@ -17,6 +17,8 @@ int main(void)
 }
 
 /**
+ * main - print alphabet
+ *
  * print_alphabet - Prints lowercase alphabet
  */
 void print_alphabet(void)
