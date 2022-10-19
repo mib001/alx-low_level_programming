@@ -1,22 +1,33 @@
 #include "main.h"
 
-/**
- * print_alphabet_x10 - prints alpha 10 times
- */
-void print_alphabet_x10(void)
-{
-	int i = 0;
-	char c;
+void print_alphabet(void);
 
-	while (i<10)
+/**
+ * main - Program entry point 
+ *
+ * Description: Print strings using putchar()
+ *
+ * Return: Return 0
+ */
+int main(void)
+{
+	print_alphabet();
+	
+	return (0);
+}
+
+/**
+ * print_alphabet - Prints lowercase alphabet
+ */
+void print_alphabet(void)
+{
+	char letter = 'a'
+
+	while (letter <= 'z')
 	{
-		c = 'a';
-		while (c <= 'z')
-		{
-		_putchar(c);
-		c++;
-		}
-		_putchar('\n');
-		i++
+		_putchar(letter);
+		letter++;
 	}
+	
+	_putchar('\n');
 }
