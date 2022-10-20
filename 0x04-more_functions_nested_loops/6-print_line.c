@@ -2,7 +2,7 @@
 
 /**
  * print_line - prints a straight line using '_'
- * @n: thenumber of '_' to be printed
+ * @n: the number of '_' to be printed
  */
 void print_line(int n)
 {
@@ -14,5 +14,5 @@ void print_line(int n)
 			_putchar('_');
 	}
 
-	_putchar('\n')
+	_putchar('\n');
 }
