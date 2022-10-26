@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates two strings with n bytes
- * @dest: copy to
+ * _strncat - concatenates two strings using bytes
  * @src: copy from
- * @n: no of char to be copied
+ * @dest: copy to
+ * @n: number of character to be copied
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
@@ -15,10 +15,10 @@ char *_strncat(char *dest, char *src, int n)
 	a = 0;
 	while (dest[a] != '\0')
 	{
-		i++;
+		a++;
 	}
 	b = 0;
-	while (b < n && src[b] != '\0')
+	while (a < n && src[b] != '\0')
 	{
 		dest[a] = src[b];
 		a++;
