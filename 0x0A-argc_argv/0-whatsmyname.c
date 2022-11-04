@@ -9,6 +9,8 @@
  */
 int main (int argc, char *argv[])
 {
-	print("&s\n", *argv);
+	(void)argv;
+	
+	print("&d\n", *argc - 1);
 	return (0);
 }
